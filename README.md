@@ -1,9 +1,12 @@
 # Learnids
 Mata Kuliah : Teknik Pemograman 
+
 Dosen : Fredian Simanjuntak, S.Kom.
+
 Judul Proyek : Aplikasi Learnids 
 
 Kelompok 4
+
 Anggota kelompok :
   1. Antoni Halim 2031056 
   2. Novita Putri 2301058
