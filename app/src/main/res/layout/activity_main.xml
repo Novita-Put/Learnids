@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.kelompok4.MainActivity"
+    tools:ignore="ExtraText">
+
+
+    <ImageView
+        android:id="@+id/buttonlogo"
+        android:layout_width="370dp"
+        android:layout_height="355dp"
+        android:background="@drawable/l_o_g_o"
+        android:layout_marginTop="-65dp"
+        android:layout_marginStart="240dp" />
+
+    <ImageButton
+        android:id="@+id/buttonexit"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/exit"
+        android:layout_marginTop="9dp"
+        android:layout_marginStart="9dp" />
+
+    <ImageButton
+        android:id="@+id/buttonsetting"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/settings_14450"
+        android:layout_marginTop="9dp"
+        android:layout_marginStart="760dp" />
+
+    <ImageButton
+        android:id="@+id/buttonangka"
+        android:layout_width="190dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="328dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/angka" />
+
+    <ImageButton
+        android:id="@+id/buttonabc"
+        android:layout_width="190dp"
+        android:layout_height="120dp"
+        android:background="@drawable/abcd"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="150dp" />
+
+    <ImageButton
+        android:id="@+id/buttonbangundatar"
+        android:layout_width="190dp"
+        android:layout_height="120dp"
+        android:background="@drawable/bangundatar"
+        android:layout_marginStart="602dp"
+        android:layout_marginTop="150dp" />
+
+    <ImageButton
+        android:id="@+id/buttonwarna"
+        android:layout_width="190dp"
+        android:layout_height="120dp"
+        android:background="@drawable/warnai"
+        android:layout_marginStart="328dp"
+        android:layout_marginTop="280dp" />
+
+    <ImageButton
+        android:id="@+id/buttonhewan"
+        android:layout_width="190dp"
+        android:layout_height="120dp"
+        android:background="@drawable/hewan"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="280dp" />
+
+    <ImageButton
+        android:id="@+id/buttontransportasi"
+        android:layout_width="190dp"
+        android:layout_height="120dp"
+        android:background="@drawable/transportasi"
+        android:scaleType="center"
+        android:layout_marginStart="602dp"
+        android:layout_marginTop="280dp"/>
+
+</RelativeLayout>

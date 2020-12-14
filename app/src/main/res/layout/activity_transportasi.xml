@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".TransportasiActivity">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbarSize="0dp"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            tools:ignore="MissingConstraints">
+
+            <ImageButton
+                android:id="@+id/mobil"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/mobil"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="332dp" />
+            <ImageButton
+                android:id="@+id/angkot"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/angkot_png"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="332dp" />
+            <ImageButton
+                android:id="@+id/bus"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/bus"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="332dp" />
+            <ImageButton
+                android:id="@+id/truk"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/truk"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="332dp" />
+            <ImageButton
+                android:id="@+id/delman"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/delman"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="332dp" />
+            <ImageButton
+                android:id="@+id/kereta_api"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/keretaapi"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="332dp" />
+            <ImageButton
+                android:id="@+id/bajaj"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/bajaj"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="332dp" />
+            <ImageButton
+                android:id="@+id/becak"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/becak"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="332dp" />
+            <ImageButton
+                android:id="@+id/motor"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/motor"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="332dp" />
+            <ImageButton
+                android:id="@+id/sepeda"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/sepeda"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="332dp" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/tampil_transportasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/pop_mobil"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="720dp"
+        android:layout_marginLeft="811dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="9dp"
+        android:background="@drawable/back" />
+
+</RelativeLayout>
